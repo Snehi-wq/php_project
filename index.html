@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">MULTI<b>P</b>leX</div>
+        <div class="box">
+            <input type="search" id="mySearch" placeholder="Search Movies...">
+        </div>
+        <div class="search">
+            <button class="btn" type="submit">Search</button>
+        </div>
+    </header>
+    <menu>
+        <ul>
+            <li style="background-color: brown;"><a href="" class="active">Home</a></li>
+            <li><a href="content.html">Content based movie</a></li>
+            <li><a href="corelation.html">Co-relation based movie</a></li>
+            <li><a href="popularity.html">Popularity based movie</a></li>
+            <li><a href="genre.html">Genre based movie</a></li>
+        </ul>
+    </menu>
+    <section>
+        <h4>Welcome to MULTI<b>Plex</h4>
+        <p>A movie search and store database to gather your favourite movies and recommend further ones built by and for movies enthusiasts.</p>
+    </section>
+    <div class="popular">
+        <h3>Popular Movies Right Now</h4>
+        <ul>
+            <li><img src="image/1.jpg" style="width: 100%; height: 200px;">A-X-L</li>
+            <li><img src="image/2.jpg" style="width: 100%; height: 200px;">K I N</li>
+            <li><img src="image/3.jpg" style="width: 100%; height: 200px;">K G F</li>
+            <li><img src="image/4.jpg" style="width: 100%; height: 200px;">CAPTION MARVEL</li>
+        </ul>
+    </div>
+    <div class="top">
+        <h3>Top movies from our database</h4>
+        <ul>
+            <li><img src="image/5.jpg" style="width: 100%; height: 200px;">X-MAN</li>
+            <li><img src="image/6.jpg" style="width: 100%; height: 200px;">AVENGERS</li>
+            <li><img src="image/7.jpg" style="width: 100%; height: 200px;">GENIUS</li>
+            <li><img src="image/8.jpg" style="width: 100%; height: 200px;">THOR</li>
+        </ul>
+    </div>
+    <footer>
+        Coptyright&copy;:www.multiplex.com | 2019-20 | Designed By : UTTAM KUMAR
+    </footer>
+
+
+    <script>
+    function myFunction() {
+      var x = document.getElementById("mySearch").placeholder;
+      document.getElementById("demo").innerHTML = x;
+    }
+    </script>
+</body>
+</html>
